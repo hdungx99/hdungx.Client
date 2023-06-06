@@ -1,0 +1,32 @@
+{
+  "generator-ngx-rocket": {
+    "version": "11.0.0",
+    "props": {
+      "location": "path",
+      "strict": true,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "target": ["web"],
+      "ui": "material",
+      "layout": "side-menu",
+      "features": ["pwa", "auth", "lazy", "cypress"],
+      "languages": ["en-US"],
+      "tools": ["prettier", "hads", "compodoc", "jest", "protractor", "puppeteer"],
+      "utility": ["lodash", "ramda", "moment", "datefns"],
+      "deploy": "docker",
+      "appName": "hdungx_client",
+      "projectName": "hdungx-client",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": [],
+      "pwa": true,
+      "auth": true,
+      "lazy": true,
+      "e2e": true,
+      "cypress": false,
+      "angulartics": false
+    }
+  }
+}
